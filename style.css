@@ -157,7 +157,7 @@ body{
     }
 
     h1{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .calendario{
@@ -179,7 +179,7 @@ input {
 }
 
 img{
-    height: 80px;
+    height: 75px;
 }
 
 .titulo{
@@ -191,6 +191,11 @@ img{
 .esquerda,
 .direita{
     flex: initial;
+}
+
+.esquerda,
+.direita{
+    justify-content: center;
 }
 
 }
