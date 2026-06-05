@@ -31,16 +31,16 @@ botao.addEventListener("click", function() {
 console.log(ciclo);
 
 if(ciclo===0){
-    caixaResul.textContent = "Trabalho (1/2)"
+    caixaResul.textContent = "Turno A (1/2)"
     caixaResul.style.backgroundColor = "red";
 }else if(ciclo===1){
-    caixaResul.textContent = "Trabalho (2/2)"
+    caixaResul.textContent = "Turno A (2/2)"
     caixaResul.style.backgroundColor = "red";
 }else if(ciclo===2){
-    caixaResul.textContent = "Folga (1/2)"
+    caixaResul.textContent = "Turno B (1/2)"
     caixaResul.style.backgroundColor = "green";
 }else{
-    caixaResul.textContent = "Folga (2/2)"
+    caixaResul.textContent = "Turno B (2/2)"
     caixaResul.style.backgroundColor = "green";
 }
 });
