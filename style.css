@@ -161,17 +161,17 @@ body{
     }
 
     .calendario{
-    width: 400px;
+    width: 90vw;
     height: 120px;
     border: 10px solid #0033a1;
 }
 
 input {
     height: 80px;
-    width: 350px;
+    width: 80vw;
 }
 .resultado{
-     width: 400px;
+     width: 90vw;
     height: 240px;
     border: 10px solid #0033a1;
     font-size: 50px;
@@ -184,8 +184,13 @@ img{
 
 .titulo{
     gap: 20px;
+    justify-content: center;
 }
 
-
+.centro,
+.esquerda,
+.direita{
+    flex: initial;
+}
 
 }
